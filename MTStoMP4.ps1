@@ -18,7 +18,7 @@ foreach ( $src in $srcs ) {
     # # MTS to mp4, 5.1ch to 1ch, normalize audio.
     # & $ffmpeg -i $src.FullName -vcodec copy  -ac 1 -filter:a loudnorm "$dest.mp4"
 
-    # MTS to mp4, remove head, downsampling.
+    # MTS to mp4, remove head, framerate=30, monaural.
     & $ffmpeg -ss 00:00:1.000 -i $src.FullName -r 30 -ac 1 "$dest.mp4"
 
 }

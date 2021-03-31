@@ -1,12 +1,12 @@
 
 $ffmpeg = "D:\DeskTop\ffmpeg-4.2.2-win64-static\ffmpeg-4.2.2-win64-static\bin\ffmpeg.exe"
-$blank = Convert-Path ".\blank.png"
 $timeBase = 30
 $destDir = "H:\motivated\media\export-tmp"
+$targetList = "./targets.txt"
+$blank = Convert-Path ".\blank.png"
 
 
-
-$targets = ( Get-Content ./targets.txt | ConvertFrom-Csv -Delimiter "`t" )
+$targets = ( Get-Content $targetList | ConvertFrom-Csv -Delimiter "`t" )
 
 foreach ($target in $targets) {
 
