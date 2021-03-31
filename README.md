@@ -19,5 +19,5 @@
 
 
 # FAQ
-see -> [[FAQ.md]]
+see -> [FAQ](FAQ.md)
 
