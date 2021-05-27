@@ -29,5 +29,5 @@
 1. powershellで`.\Run.ps1`を実行
 
 # Tips
-see -> [Tips](/misc/Tips.md)
+see -> [Tips](./Tips.md)
 
