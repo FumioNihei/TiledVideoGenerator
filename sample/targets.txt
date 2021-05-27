@@ -1,3 +1,3 @@
 ID	XmlPath	Start	End
-sano	"H:\motivated\media\patient.xml"	00:00:36.610	00:14:57.051
-ito	"H:\motivated\media\patient.xml"	01:06:01.609	01:25:37.085
+sano	"C:\TiledVideoGenerator\sample\sync.xml"	00:00:36.610	00:14:57.051
+ito	"C:\TiledVideoGenerator\sample\sync.xml"	01:06:01.609	01:25:37.085

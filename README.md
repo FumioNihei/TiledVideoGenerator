@@ -8,17 +8,26 @@
 - .NET Core 3.1
 - powershell
 - ffmpeg
-- [PluralEyes](https://www.redgiant.com/products/pluraleyes/)
+- [PluralEyes](https://www.maxon.net/ja/red-giant-complete/pluraleyes/)
 
 
-# 使い方
+# サンプルでの実行
 
-1. PluralEyesでメディアの同期情報を作成する
-1. 実験のセッション時間を記録する
-1. テキストエディタで`Run.ps1`を開き，いくつかの項目を変更する
+**サンプルはまだ用意してないよ**
+
+サンプルのデータは以下．
+
+- `./sample/sync.xml`: `PluralEyes`のメディア同期結果の出力ファイル
+- `./sample/targets.txt`: セッション区間のリスト
+- `./sample/medias`: 同期をとるための映像や音声データ（**準備まだ**）
+
+実行手順は以下．
+
+1. `TiledVideoGenerator`ディレクトリを`C:\`直下に配置する
+    - `PluralEyes`は取り込んだメディアファイルのパスを絶対パスとして扱う都合による
+1. テキストエディタで`.\Run.ps1`を開き，`ffmpeg`のパス等を変更する
 1. powershellで`.\Run.ps1`を実行
 
-
-# FAQ
-see -> [FAQ](FAQ.md)
+# Tips
+see -> [Tips](/misc/Tips.md)
 
